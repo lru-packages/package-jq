@@ -1,6 +1,6 @@
 NAME=jq
 VERSION=1.5
-ITERATION=1
+ITERATION=1.lru
 PREFIX=/usr/bin
 LICENSE=MIT
 VENDOR="Stephen Dolan"
@@ -20,7 +20,6 @@ package:
 		-n $(NAME) \
 		-v $(VERSION) \
 		-m $(MAINTAINER) \
-		--epoch 1 \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
 		--vendor $(VENDOR) \
